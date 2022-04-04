@@ -4,7 +4,7 @@
 
 Click here to site preview [https://hackintosh.netlify.app/](https://hackintosh.netlify.app/)
 
-![picture alt](http://via.placeholder.com/200x150 "Hackintosh")
+![picture alt](https://i.ibb.co/C8yT9GD/screencapture-hackintosh-netlify-app-2022-04-05-02-39-13.png "Hackintosh")
 
 ## About site
 

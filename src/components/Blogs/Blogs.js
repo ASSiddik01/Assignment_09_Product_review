@@ -1,9 +1,10 @@
 import React from "react";
 import "./Blogs.css";
+import { Container } from 'react-bootstrap';
 
 const Blogs = () => {
   return (
-    <div>
+    <Container>
       <h1 className="section_name">Question &#38; Answer</h1>
       <div className="qa">
         <h2>
@@ -22,7 +23,7 @@ const Blogs = () => {
           header tag
         </p>
       </div>
-    </div>
+    </Container>
   );
 };
 
