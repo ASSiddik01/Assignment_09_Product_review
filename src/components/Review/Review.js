@@ -5,8 +5,6 @@ import Rating from "../Rating/Rating";
 
 const Review = (props) => {
   const { img, name, rating, message } = props.review;
-  console.log(img);
-
   return (
     <Col>
       <Card className="text-center border-0 review_card ">

@@ -6,7 +6,6 @@ import Review from "../Review/Review";
 
 const Reviews = () => {
   const [reviews, setReviews] = useReviews();
-  console.log(reviews);
   return (
     <Container>
       <Row>
