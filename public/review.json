@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "name": "ekaterine",
+    "img": "https://i.ibb.co/Lh7PtYG/ekaterine.jpg",
+    "message": "I use this for basic computer needs at home. What I will do with is just Office, surfing, youtube, netflix. This computer handles it really well, all very smoothly.",
+    "rating": 4
+  },
+  {
+    "id": "02",
+    "name": "C. L. Messina",
+    "img": "https://i.ibb.co/rpqDqrc/C-L-Messina.jpg",
+    "message": "It probably wouldn't be of much use for gaming or CAD, but for basic web browsing, office use, and video streaming, it will do well. I have added some pictures next to a macbook air for size comparison. The screen is bright and beautiful, offering 1080p resolution.",
+    "rating": 4.3
+  },
+  {
+    "id": "03",
+    "name": "Kelley",
+    "img": "https://i.ibb.co/qCgbBwj/Kelley.jpg",
+    "message": "I rarely review products but figured this may be helpful to some. For starters, some background context: I am in my mid-20s and have long since finished uni. I am not a gamer. I primarily use my laptop(s)/tablets for streaming shows/movies; occasionally working from home; and crafting/design editing. ",
+    "rating": 3.8
+  },
+  {
+    "id": "04",
+    "name": "Jeremy B",
+    "img": "https://i.ibb.co/vP9194j/Jeremy-B.jpg",
+    "message": "Ram runs at 2400 not 2666 don't believe the Acer reps here I have tested it myself with multiple sticks including the one that came with the laptop. Needs more ram for what I needed. If you just want to browse the internet and watch streams its ok. Keyboard back lighting looks bad some keys are much brighter then others I bothers me.",
+    "rating": 4.1
+  },
+  {
+    "id": "05",
+    "name": "Ijakdo",
+    "img": "https://i.ibb.co/L0v90v9/Ijakdo.jpg",
+    "message": "I've read some guy's review that says Acer and Amazon told him to pay $100 to upgrade. So I was very hesitant to order this unit. But once you go to windows upgrade page, it will tell you this copy of windows cannot be activated.",
+    "rating": 4.9
+  },
+  {
+    "id": "06",
+    "name": "Travis Best",
+    "img": "https://i.ibb.co/0Q2gswt/Travis-Best.jpg",
+    "message": "Out of the box, this is a beautiful laptop. I felt how light it was and I thought to myself, there's no way I can get performance out of this thing. Turned it on and set up and the first thing I did was download World of Warcraft. It downloaded fast. It runs at about medium settings out of the box.",
+    "rating": 4.5
+  }
+]
