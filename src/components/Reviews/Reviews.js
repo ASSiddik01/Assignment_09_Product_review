@@ -16,12 +16,9 @@ const Reviews = () => {
           </h1>
         </div>
       </Row>
-      <Row xs={1} md={2} lg={3} className="g-4">
+      <Row xs={1} md={2} lg={3} className="g-4 mb-5">
         {reviews.map((review) => (
-            <Review
-                key={review.id}
-                review={review}
-            ></Review>
+          <Review key={review.id} review={review}></Review>
         ))}
       </Row>
     </Container>

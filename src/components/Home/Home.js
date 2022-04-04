@@ -5,8 +5,13 @@ import banner from "../../image/banner.png";
 import logo from "../../image/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import useReviews from "../../hooks/useReviews";
+import Review from "../Review/Review";
 
 const Home = () => {
+  const [reviews, setReviews] = useReviews();
+  const slicedReview = reviews.slice(0, 3);
+
   return (
     <div>
       <Container>
@@ -45,8 +50,13 @@ const Home = () => {
         {/* Review Section */}
         <Row className="my-5">
           <div className="section_title text-center">
-            <h1 className="py-5">Customer Reviews</h1>
+            <h1 className="py-5">Customer Reviews ({slicedReview.length}) </h1>
           </div>
+        </Row>
+        <Row xs={1} md={2} lg={3} className="g-4 mb-5">
+          {slicedReview.map((review) => (
+            <Review key={review.id} review={review}></Review>
+          ))}
         </Row>
       </Container>
     </div>
