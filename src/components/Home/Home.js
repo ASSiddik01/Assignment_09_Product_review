@@ -42,12 +42,12 @@ const Home = () => {
             />
           </div>
         </Row>
-              {/* Review Section */}
-              <Row className="my-5">
-                  <div className="section_title text-center">
-                      <h1 className="py-5">Customer Reviews</h1>
-                  </div>
-              </Row>
+        {/* Review Section */}
+        <Row className="my-5">
+          <div className="section_title text-center">
+            <h1 className="py-5">Customer Reviews</h1>
+          </div>
+        </Row>
       </Container>
     </div>
   );
