@@ -3,9 +3,9 @@ import { FaStar } from "react-icons/fa";
 
 const Rating = () => {
     return (
-        <div>
-            <FaStar/>
-        </div>
+        <span className='text-warning m-0'>
+            <FaStar/><FaStar/><FaStar/><FaStar/>
+        </span>
     );
 };
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Container, Image, Row } from "react-bootstrap";
-import "./Home.css";
 import banner from "../../image/banner.png";
 import logo from "../../image/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,8 +9,11 @@ import Review from "../Review/Review";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  // Import Hook
   const [reviews, setReviews] = useReviews();
+  // Review slice for home
   const slicedReview = reviews.slice(0, 3);
+  // Use Navigate to redirect to review page
   let navigate = useNavigate();
 
 
@@ -35,7 +37,7 @@ const Home = () => {
                 Laptop Configuration is; Processor - i5 4300U, Ram - 8GB DDR3L,
                 SSD - 120GB.{" "}
                 <b>
-                  But funny thing is the laptop is mine and I install hackintosh
+                  But funny fact is the laptop is mine and I install hackintosh
                   in this laptop and also put the Apple logo from my old
                   Macbook.
                 </b>{" "}
@@ -56,7 +58,7 @@ const Home = () => {
         {/* Review Section */}
         <Row className="my-5">
           <div className="section_title text-center">
-            <h1 className="py-5">Customer Reviews ({slicedReview.length}) </h1>
+            <h1 className="py-5">Customer <span className="text-warning">Reviews</span> ({slicedReview.length}) </h1>
           </div>
         </Row>
         <Row xs={1} md={2} lg={3} className="g-4 mb-5">

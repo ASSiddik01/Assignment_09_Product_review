@@ -10,7 +10,6 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import "./Dashborad.css";
 
 const Dashborad = () => {
   const data = [

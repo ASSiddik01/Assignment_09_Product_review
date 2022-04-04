@@ -7,7 +7,7 @@ const NotFound = () => {
     return (
         <Container>
             <Row>
-                <h1 className='text-uppercase fw-bold my-3'>Page Not Found</h1>
+                <h1 className='text-uppercase fw-bold my-3 text-danger'>Page Not Found</h1>
             <Image className='w-50 mx-auto' src={error} alt="" />
             </Row>
         </Container>
