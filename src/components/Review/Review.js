@@ -9,7 +9,7 @@ const Review = (props) => {
 
   return (
     <Col>
-      <Card className="text-center">
+      <Card className="text-center border-0 review_card ">
         <Card.Img className="mx-auto rounded-circle mt-3" variant="top" src={img} />
         <Card.Body>
           <Card.Title className="text-capitalize">{name}</Card.Title>

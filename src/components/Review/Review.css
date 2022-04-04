@@ -5,3 +5,12 @@
 .card-img-top {
     width: 100px !important;
 }
+
+.review_card{
+    box-shadow: 0 0 30px #ddd;
+    transition: all .5s;
+}
+
+.review_card:hover{
+    box-shadow: none;
+}
